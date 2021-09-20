@@ -1,0 +1,115 @@
+body {
+    background-color: #242f3e;
+    margin: 0px;
+    overflow: hidden;
+  }
+
+  tspan{
+    font-weight: 700;
+    font-size: 10pt;
+  }
+    
+  .node{
+    stroke-width: 2;
+    stroke: #242f3e;
+  }
+  .node-outline{
+    stroke-opacity: 0.8;
+  }
+
+  .chartBG{
+    opacity: 0.1;
+    fill: black
+  }
+
+  .line-path {
+    fill: none;
+    stroke-width: 4;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+  .edge-path {
+    fill: none;
+    stroke-dasharray: 0 20;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+
+  }
+
+  .inline-path {
+    stroke: #242f3e;
+    fill: none;
+    stroke-opacity: 0;
+  }
+
+  .outline-path {
+    fill: none;
+    stroke-opacity: 1;
+  }
+
+
+
+  text {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .text-value {
+    font-weight: 200;
+    font-size: 24pt;
+  }
+
+  .text-unit {
+    font-weight: 700;
+    font-size: 10pt;
+  }
+
+  .text-group {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 10pt;
+  }
+
+  .text-name {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase; 
+    fill: #FFFFFF;
+    font-weight: 600;
+    font-size: 14pt;
+  }
+
+  .text-time {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60pt;
+    fill: #FFFFFF;
+  }
+
+  .text-button {
+    font-weight: 700;
+    font-size: 12pt;
+    fill: #FFFFFF;
+    text-anchor: middle;
+  }
+  
+  .domain {
+    stroke: white;
+  }
+  .tick text {
+    font-size: 1em;
+    fill: white;
+  }
+  
+  .tick line {
+    opacity: 0.2;
+    stroke: white;
+  }
+  
+  .axis-label {
+    font-size: 2em;
+    fill: white;
+  }
+  
+  .title {
+    font-size: 2em;
+    fill: white;
+  }
